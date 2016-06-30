@@ -1,0 +1,20 @@
+html,
+body {
+height: 100%; 
+margin: 0; 
+padding: 0; 
+}
+#map { 
+      height: 400px;
+      width: 400px;
+      float: left;
+}
+#informacion{
+	height: 500px;
+  	width: 500px;
+  	float: left;
+  	background: green;
+}
+.control{
+	width:60%;
+}

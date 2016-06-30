@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<title>Google Maps</title>
+	<link rel="stylesheet" href="estilos/mapa.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="informacion">
+    	<label for="ladLng">Latitud y longitud</label>
+    	<input type="text" id="txtladlong" class="control">
+    	<br>
+    	<label for="txtlatitd">Latitud:</label>
+    	<input type="text" id="txtlatitd" class="control">
+    	<br>
+    	<label for="txtLng">Longitud:</label>
+    	<input type="text" id="txtLng" class="control">
+    	
+
+    </div>
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBc_ywSqfqGgmIC52duEACM97gNHqMG_I&callback=initMap"></script>
+	<script type="text/javascript" src="jquery/jquery-ui-1.11.4/external/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="js/mapJA.js"></script>
+
+
+  </body>
+</html>
